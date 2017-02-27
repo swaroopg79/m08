@@ -1,0 +1,23 @@
+{
+  "name": "Gender",
+  "plural": "Gender",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "Male": {
+      "type": "string",
+      "required": true
+    },
+    "Female": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
